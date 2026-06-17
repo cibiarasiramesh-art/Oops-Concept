@@ -1,0 +1,17 @@
+
+class Area{
+    int radius;
+    void display(int v){
+        radius=v;
+        System.out.println(v*v);
+    }
+
+}
+
+public class CircleArea {
+    public static void main(String[] args){
+        Area a=new Area();
+        a.display(5);
+    }
+    
+}
