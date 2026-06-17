@@ -1,0 +1,18 @@
+
+class Emp{
+    int emp_id=1;
+    String name="cibi";
+    int sal=1000000000;
+    void display(){
+        System.out.println(emp_id+" "+name+" "+sal);
+    }
+}
+
+
+public class Emp_Details{
+    public static void main(String[] args){
+        Emp e=new Emp();
+        e.display();
+
+    }
+}
