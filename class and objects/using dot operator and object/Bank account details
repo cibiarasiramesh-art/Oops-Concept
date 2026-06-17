@@ -1,0 +1,14 @@
+class Bank{
+    int no;
+    String name;
+}
+
+public class BankAccount {
+    public static void main(String[] args){
+        Bank b=new Bank();
+        b.no=123;
+        b.name="cibi";
+        System.out.println(b.no+" "+b.name+" ");
+    }
+    
+}
