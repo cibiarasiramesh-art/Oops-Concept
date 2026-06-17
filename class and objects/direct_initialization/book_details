@@ -1,0 +1,17 @@
+class Book{
+    int id=1;
+    String name="universe";
+    int price=100;
+    void display(){
+        System.out.println(id+" "+name+" "+price);
+    }
+}
+
+public class BookDetails {
+    public static void main(String[] args){
+        Book b=new Book();
+        b.display();
+
+    }
+    
+}
