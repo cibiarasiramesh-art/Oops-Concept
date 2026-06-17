@@ -1,0 +1,15 @@
+class Car{
+    int no;
+    String brand;
+}
+
+public class CarDetails {
+    public static void main(String[] args){
+        Car c=new Car();
+        c.no=121;
+        c.brand="toyota";
+        System.out.println(c.no+" "+c.brand+" ");
+
+    }
+    
+}
