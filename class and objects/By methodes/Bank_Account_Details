@@ -1,0 +1,37 @@
+//package By_Methodes;
+
+import java.util.Scanner;
+class Bank{
+    int no;
+    String name;
+    double bal;
+    double dep;
+    double with;
+    Bank(int i,String n,double b,double d,double w){
+        no=i;
+        name=n;
+        bal=b;
+        dep=d;
+        with=w;
+
+
+    }
+    void display(){
+        System.out.println(no+" "+name+" "+bal);
+        System.out.println("deposite: "+dep);
+        System.out.println("withdrawal: "+ with);
+        System.out.println((bal+dep)-with);
+
+
+    }
+}
+public class BankAccount {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        Bank b=new Bank(1,"cibi",1000,0,0);
+        b.display();
+        b.dep=sc.nextDouble();
+        b.with=sc.nextDouble();
+    }
+    
+}
