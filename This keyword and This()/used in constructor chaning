@@ -1,0 +1,17 @@
+class Shape {
+   int len;
+   int bre;
+
+   Shape() {
+      this(10, 20);
+   }
+
+   Shape(int var1, int var2) {
+      this.len = var1;
+      this.bre = var2;
+   }
+
+   void display() {
+      System.out.println(this.len + " " + this.bre);
+   }
+}
